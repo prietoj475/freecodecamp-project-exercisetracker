@@ -21,7 +21,9 @@ GET `/api/:_id/logs` | Return the log of a user's exercises | userId*, from, to,
 * `{"username":"userTest","count":1,"_id":"dolQVVaZT","log":[{"description":"exerciseTest","duration":20,"date":"Mon May 13 2002"}]}`
 
 ## How to use:
+```
 setup Mongodb server
+create .env file
 npm install
 npm start
 ```
